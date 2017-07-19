@@ -1,0 +1,80 @@
+.main-content {
+	margin-top: 2em;
+	margin-bottom: 6em;
+}
+
+.main-content header {
+	font-weight: bold;
+}
+
+.main-story {
+	margin-top: 10px;
+}
+
+.main-story section {
+	margin-bottom: 20px;
+}
+
+.byline {
+	color: #999;
+	margin: 4px 1px;
+	// font-family: $serif;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 400;
+	font-size: 11px;
+}
+
+.main-story ul {
+	list-style: initial;
+	padding-left: 15px;
+}
+
+.main-story ul li{
+	margin: 10px 0;
+	line-height: 1.5;
+}
+
+/* 
+	Comments Link with Blue Square
+*/
+
+.comments {
+	color: #326891;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	vertical-align: bottom;
+}
+
+
+article {
+	margin: 10px 0;
+}
+
+article hr {
+	width: 50%;
+	color: #999;
+}
+
+.kicker {
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.opinion {
+	margin-top: 10px;
+}
+
+.opinions-list {
+	list-style: initial;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.opinions-list li {
+	margin: 5px 0;
+}
+
+.opinion-sign-up {
+	margin: 20px 0;
+}
