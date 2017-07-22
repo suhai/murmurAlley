@@ -1,17 +1,23 @@
+"use strict";
+
 /* global $ */
 
-const toggleModal = () => {
-	$("#search-modal").toggleClass('expand')
-	$("#overlay").toggleClass('hidden')
+var toggleModal = function toggleModal() {
+	$("#search-modal").toggleClass('expand');
+	$("#overlay").toggleClass('hidden');
 };
 
 // Add click listener to search icon which invokes sidebar function
-$(() => $('#search-modal-btn').on('click', toggleModal));
+$(function () {
+	return $('#search-modal-btn').on('click', toggleModal);
+});
 
 // Add click listener to overlay
-$(() => $('#overlay').on('click', toggleModal));
+$(function () {
+	return $('#overlay').on('click', toggleModal);
+});
 
 // Add click listener to close button
-$(() => $('.close').on('click', toggleModal));
-
-
+$(function () {
+	return $('.close').on('click', toggleModal);
+});
