@@ -24,3 +24,9 @@ $(function () {
 $(function () {
 	return $('#sections-sidebar').mouseleave(toggleSideBarIfExpanded);
 });
+
+$(window).on('load', function() {
+	setInterval( function(){
+		$('#today').text(new Date);
+	}, 1000);	
+});
