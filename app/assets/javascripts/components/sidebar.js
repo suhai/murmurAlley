@@ -28,5 +28,30 @@ $(function () {
 $(window).on('load', function() {
 	setInterval( function(){
 		$('#today').text(new Date);
-	}, 1000);	
+	}, 5000);	
 });
+
+// $(window).on('load', function() {
+// 	setInterval( function(){
+// 		$('#weather').text(new Date);
+// 	}, 1000)	;
+// });
+
+ $(window).on('load', function() {
+	setInterval( function() {
+		
+		var output = new XMLHttpRequest();
+		output.open("GET", "http://api.wunderground.com/api/c8b187186bb5b42c/conditions/q/CA/San_Francisco.json", false);
+		output.send(null);;
+		var x = JSON.parse(output.response)
+		var weatherTime = x.current_observation.observation_time;
+		var weatherTemp = x.current_observation.feelslike_string;
+		var weather = x.current_observation.weather;
+		
+		document.getElementById("weather1").innerHTML = weatherTemp;
+		document.getElementById("weather2").innerHTML = weather;
+		
+		
+		
+	}, 10000)
+ });
