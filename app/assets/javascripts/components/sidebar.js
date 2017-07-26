@@ -49,5 +49,5 @@ var getWeather = function() {
 	getWeather();
 	setInterval( function() {
 	getWeather();	
-	}, 600000)
+	}, 300000)
  });
