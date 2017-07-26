@@ -28,7 +28,7 @@ $(function () {
 $(window).on('load', function() {
 	setInterval( function(){
 		$('#today').text(new Date);
-	}, 5000);	
+	}, 2000);	
 });
 
 
