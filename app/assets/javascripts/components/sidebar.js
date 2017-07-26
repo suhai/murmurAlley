@@ -28,7 +28,7 @@ $(function () {
 $(window).on('load', function() {
 	setInterval( function(){
 		$('#today').text(new Date);
-	}, 1000);	
+	}, 5000);	
 });
 
 
@@ -49,5 +49,7 @@ var getWeather = function() {
 	getWeather();
 	setInterval( function() {
 	getWeather();	
-	}, 300000)
+	}, 600000)
  });
+
+ 
