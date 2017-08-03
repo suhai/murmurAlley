@@ -34,7 +34,7 @@ $(window).on('load', function() {
 
 var getWeather = function() {
 	var output = new XMLHttpRequest();
-	output.open("GET", "http://api.wunderground.com/api/c8b187186bb5b42c/conditions/q/CA/San_Francisco.json", false);
+	output.open("GET", "https://api.wunderground.com/api/c8b187186bb5b42c/conditions/q/CA/San_Francisco.json", false);
 	output.send(null);;
 	var x = JSON.parse(output.response)
 	var weatherTime = x.current_observation.observation_time;
