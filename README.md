@@ -1,4 +1,4 @@
-# murmur Alley
+# murmurAlley
 
 The Application is deployed here: [murmurAlley](https://murmuralley.herokuapp.com/)
 
@@ -144,6 +144,8 @@ export default Trivium;
 ```
 
 ![Alt text](https://res.cloudinary.com/swy/image/upload/v1501895992/murmur1_i6zdm2.png "homepage")
+
+
 ![Alt text](https://res.cloudinary.com/swy/image/upload/v1501895991/murmur2_kwvrrt.png "homepage signup")
 
 
