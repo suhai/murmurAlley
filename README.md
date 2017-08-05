@@ -143,9 +143,13 @@ const Trivium = (props) => (
 export default Trivium;
 ```
 
+
+## Homepage
+
 ![Alt text](https://res.cloudinary.com/swy/image/upload/v1501895992/murmur1_i6zdm2.png "homepage")
 
 
+## Homepage Signup
 ![Alt text](https://res.cloudinary.com/swy/image/upload/v1501895991/murmur2_kwvrrt.png "homepage signup")
 
 
