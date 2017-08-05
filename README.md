@@ -99,7 +99,7 @@ var getWeather = function() {
 
 ### Plans For The Future
 
-* I plan to migrate the entire to a React/Redux framework in teh future, as well as add features to allow online payments.
+* I plan to migrate the entire app to a React/Redux framework in teh future, as well as add features to allow online payments.
 
 
 
